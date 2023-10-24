@@ -81,6 +81,27 @@ table {align-self: center;
 .odd {background-color: #D2B48E }
 td {padding: 10px; }
 th {padding: 10px; }
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd90;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd21;
+  }
+
+  .img {
+	border-radius: 8px;
+	width: 100%;
+	height: auto;
+  }
 
  @media (min-width: 600px) { 
 		header { 	padding-left: 0; 
